@@ -78,13 +78,13 @@
 
         <form action="forms/add-event.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
             <div class="form-row">
-            <div class="col-lg-4 col-md-6 form-group">
+            
+              <div class="col-lg-6 col-md-6 form-group">
                 <h4>Event Name</h4>
                 <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter event name" placeholder="Enter event name">
                 <div class="validate"></div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 form-group">
+              </div>
+            <div class="col-lg-6 col-md-6 form-group">
               <h4>Event Type</h4>
               <select name="event-type" class="custom-select" id="event-type" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                   <option value="">Select Event Type</option>
@@ -97,7 +97,22 @@
                   <option value="community">Community</option>
               </select>
               <div class="validate"></div>
-          </div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group">
+              <h4>Date</h4>
+              <input type="date" name="date" class="form-control" id="date" data-rule="minlen:4" data-msg="Please enter a date">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group">
+              <h4>Time</h4>
+              <input type="time" name="time" class="form-control" id="time" data-rule="minlen:4" data-msg="Please enter a time">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group">
+              <h4>Event Location</h4>
+              <input type="text" name="location" class="form-control" id="location" data-rule="minlen:4" data-msg="Please enter location of the event" placeholder="Enter location">
+              <div class="validate"></div>
+            </div>
             <div class="col-lg-12 col-md-6 form-group">
                 <h4>Event Description</h4>
                 <textarea name="eventdesc" class="form-control" name="desc" id="desc" data-rule="email" data-msg="Enter a description for your event..." placeholder="Enter a description for your event"></textarea>
@@ -115,14 +130,18 @@
             </div>
             <div class="col-lg-4 col-md-6 form-group">
               <h4>Payment Method</h4>
-              <select name="date" class="custom-select" id="payment" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  <option value="">Choose Payment Method</option>
-                  <option value="cod">Cash on Delivery</option>
-                  <option value="">Paypal</option>
-                  <option value="">Debit Card/Credit Card</option>
-              </select>
-              <div class="validate"></div>
-          </div>
+              <label class="payment-box">Cash On Delivery
+                <input name="cod" type="checkbox" value="cod">
+                <span class="checkmark"></span>
+              </label>
+              <label class="payment-box">Paypal
+                <input name="paypal" type="checkbox" value="paypal">
+                <span class="checkmark"></span>
+              </label>
+              <label class="payment-box">Debit/Credit Card
+                <input name="debit-credit" type="checkbox" value="debit-credit">
+                <span class="checkmark"></span>
+              </label>
             </div>
             
             <div class="mb-3">
@@ -136,7 +155,7 @@
         </div>
     </section>
     
-    <!-- ======= End Add Event Ticket ======= -->
+    <!-- ======= End Add Event Section ======= -->
 
   </main>
       <!-- ======= Footer ======= -->
