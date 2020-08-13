@@ -44,15 +44,11 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index-seller.php">Home</a></li>
-          <li><a href="index-seller.php#about">About</a></li>
-          <li><a href="index-seller.php#aevents">Events</a></li>
-          <li><a href="profile-seller.php#bookmarks">Bookmarks</a></li>
+          <li><a href="profile-seller.php#bookmarks">My Events</a></li>
           <div class="dropdown">
           <li class="book-a-ticket text-center dropdown"><a href="profile-seller.php">Welcome, [name]</a></li>
             <div class="dropdown-content">
-              <a href="cart.php"><i class="ion-ios-cart"></i>View Cart</a>
-              <a href="phistory.php"><i class="ion-clock"></i>Purchase History</a>
-              <a href="suggest.php"><i class="ion-android-calendar"></i>Suggest An Event</a>
+              <a href="add-event.php"><i class="ion-android-calendar"></i>Create An Event</a>
               <a href="editprof.php"><i class="ion-android-color-palette"></i>Edit Profile</a>
               <a href="landing-page.php"><i class="ion-log-out"></i>Log Out</a>
             </div>
