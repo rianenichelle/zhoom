@@ -44,15 +44,15 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index-seller.php">Home</a></li>
-          <li><a href="index-seller.php#sevents">Suggested Events</a></li>
           <li><a href="index-seller.php#about">About</a></li>
-          <li><a href="index-seller.php#aevents">All Events</a></li>
+          <li><a href="index-seller.php#aevents">Events</a></li>
           <div class="dropdown">
           <li class="book-a-ticket text-center dropdown"><a href="profile-seller.php">Welcome, [name]</a></li>
             <div class="dropdown-content">
               <a href="index-seller.php#bookmarks"><i class="ion-ios-cart"></i>My Events</a>
               <a href="suggest.php"><i class="ion-android-calendar"></i>Add An Event</a>
               <a href="editprof.php"><i class="ion-android-color-palette"></i>Edit Profile</a>
+              <a href="landing-page.php"><i class="ion-log-out"></i>Log Out</a>
             </div>
           </div>
         </ul>

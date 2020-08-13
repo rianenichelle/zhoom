@@ -44,9 +44,8 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index-customer.php">Home</a></li>
-          <li><a href="index-customer.php#sevents">Suggested Events</a></li>
           <li><a href="index-customer.php#about">About</a></li>
-          <li><a href="index-customer.php#aevents">All Events</a></li>
+          <li><a href="index-customer.php#aevents">Events</a></li>
           <li><a href="profile-customer.php#bookmarks">Bookmarks</a></li>
           <div class="dropdown">
           <li class="book-a-ticket text-center dropdown"><a href="profile-customer.php">Welcome, [name]</a></li>
@@ -55,6 +54,7 @@
               <a href="phistory.php"><i class="ion-clock"></i>Purchase History</a>
               <a href="suggest.php"><i class="ion-android-calendar"></i>Suggest An Event</a>
               <a href="editprof.php"><i class="ion-android-color-palette"></i>Edit Profile</a>
+              <a href="landing-page.php"><i class="ion-log-out"></i>Log Out</a>
             </div>
           </div>
         </ul>

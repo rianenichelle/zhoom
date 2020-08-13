@@ -44,9 +44,8 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="landing-page.php">Home</a></li>
-          <li><a href="landing-page.php#sevents">Suggested Events</a></li>
           <li><a href="landing-page.php#about">About</a></li>
-          <li><a href="landing-page.php#aevents">All Events</a></li>
+          <li><a href="landing-page.php#aevents">Events</a></li>
           <div class="dropdown">
           <li class="book-a-ticket text-center dropdown"><a href="login.php">Log In</a></li>
         </ul>
